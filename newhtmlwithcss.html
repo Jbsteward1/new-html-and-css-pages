@@ -1,0 +1,153 @@
+<!--3 Methods for adding CSS-->
+<!-- Inline CSS: directly in the html-->
+<!-- Internal CSS: Using <style> tags within a single dcoument-->
+<!-- External CSS: Linking an external .css file (SUGGESTED METHOD)-->
+
+<!--CSS SELECTORS (selector(a)), (property(background-color:), (value(yellow)))-->
+
+<!--For CSS padding is inside the margin-->
+<!--Margin is outside the padding-->
+
+
+<!--Positioning in Css-->
+<!--STATIC position the default-->
+<!--RELATIVE mean its positioned  relative the normal or default position-->
+<!--ABSOLUTE allows you to target whatver position we want inside a relative element-->
+<!--FIXED postion means it fixed to the page no matter how you move it-->
+<!--INITIAL sets the property to its initial default value-->
+<!--INHERIT will inherit whatever the property of its parent elements -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Cheat Sheet</title>
+    <!-- Internal CSS-->
+    <!-- <style type="text/css"> -->
+        <!-- h1{ -->
+            <!-- color:blue; -->
+        <!-- } -->
+    <!-- </style> -->
+
+    <link rel="stylesheet" href="./relearnstylcss.css
+    ">
+
+</head>
+<body> 
+    <div class="container">
+
+        <!--Difference between ID's & Classes-->
+        <!--ID"s are unique-->
+        <!--Classes can be reused-->
+        <div class="box-1">
+            <!--Inline CSS (DONT DO <h1 style=""/h1>)-->
+                <h1>Hello World</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Unde perspiciatis sequi rem repudiandae debitis assumenda
+                    non vero labore earum laboriosam? Dicta quia itaque consectetur illum. Sit.
+                </p>
+        </div>
+        <div class="box-2">
+            <h1>GoodBye World</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, 
+                reiciendis saepe quae suscipit necessitatibus animi architecto fuga 
+                tempore culpa eligendi harum itaque dolore molestias cupiditate, autem odio veniam 
+                repellat voluptates.</p>
+                <a class="button" href="Read More"></a>
+        </div>
+        <div class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Category</a></li>
+            </ul>
+        </div>
+        <form class="my-form">
+            <div class=" form-group">
+                <label>Name: </label>
+                <input type="text" name="name" >
+            </div>
+            <div class=" form-group">
+                <label>Email: </label>
+                <input type="text" name="email" >
+            </div>
+            <div class=" form-group">
+                <label>Message: </label>
+                <textarea name="message"></textarea>
+            </div>
+            <input class="button" type="submit" value="Submit" name="">
+        </form>
+
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Alias illo impedit amet, maiores rem reprehenderit!</p>
+
+        </div>
+
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Alias illo impedit amet, maiores rem reprehenderit!</p>
+
+        </div>
+
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Alias illo impedit amet, maiores rem reprehenderit!</p>
+
+        </div>
+
+        <div class="clr"></div>
+
+        <div id="main-block">
+            <div class="block">
+                <h3>Heading</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Alias illo impedit amet, maiores rem reprehenderit!</p>
+            
+        </div>
+
+        <div id="sidebar">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Alias illo impedit amet, maiores rem reprehenderit!</p>
+        </div>
+
+        <div class="clr"></div>
+
+        <div class="p-box">
+            <h1>Hello</h1>
+            <h2>Goodbye</h2>
+        </div>
+
+        <ul class="my-list">
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ul>
+
+    </div> <!--This is where the conainer ends-->
+
+    <a class="fix-me button" href="HELLO"></a>
+
+    <div style="margin-top: 500px;"></div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+#container{
+    position: relative;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    overflow: scroll;
+    padding: 50px;
+    margin: 50px;
+}
+
+#red-box{
+    position: static;
+    background-color: red;
+}
+
+#blue-box{
+    position: relative;
+    background-color: blue;
+    left: 50px;
+}
+
+#yellow-box{
+    position: absolute;
+    background-color: yellow;
+    top: 25px;
+    left: 0px;
+}
+
+#orange-box{
+    position: fixed;
+    background-color: orange;
+    top: 132px;
+    left: 75px;
+}
+
+#purple-box{
+    position: sticky;
+    background-color: purple;
+    top: 200px;
+    left: 245px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+}
+
+p{
+    color: white;
+}
